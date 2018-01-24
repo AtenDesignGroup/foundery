@@ -7,7 +7,8 @@
     "arrow-body-style": ["error", "always"],
     "comma-dangle": ["error", "never"],
     "func-names": ["error", "never"],
+    "global-require": 0,
     "no-console": 0,
-    "template-curly-spacing":  0
+    "template-curly-spacing": 0
   }
 }

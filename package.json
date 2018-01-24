@@ -6,6 +6,13 @@
   "author": "James Nettik <james@aten.io>",
   "license": "MIT",
   "bugs": "https://github.com/AtenDesignGroup/foundery/issues",
+  "dependencies": {
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^1.12.1",
+    "lodash.defaultsdeep": "^4.6.0",
+    "postcss-cssnext": "^3.1.0"
+  },
   "devDependencies": {
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
