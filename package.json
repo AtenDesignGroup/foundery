@@ -1,0 +1,8 @@
+{
+  "name": "foundery",
+  "version": "1.0.0",
+  "description": "Gulp based build tools.",
+  "main": "index.js",
+  "author": "James Nettik <james@aten.io>",
+  "license": "MIT"
+}
