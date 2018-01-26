@@ -5,5 +5,6 @@ module.exports = (gulp, configCustom = {}) => {
   const configDefault = require('./config');
   const config = defaultsDeep(configCustom, configDefault);
 
-  gulp.task('css', loadTask('css', gulp, config));
+  gulp.task('css', ['css:clean'], loadTask('css', gulp, config));
+  gulp.task('css:clean', loadTask('clean', gulp, config.css.clean));
 };
