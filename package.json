@@ -7,6 +7,7 @@
   "license": "MIT",
   "bugs": "https://github.com/AtenDesignGroup/foundery/issues",
   "dependencies": {
+    "breakpoint-sass": "^2.7.1",
     "gulp-postcss": "^7.0.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^1.12.1",
