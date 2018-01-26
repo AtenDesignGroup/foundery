@@ -6,6 +6,11 @@
   "author": "James Nettik <james@aten.io>",
   "license": "MIT",
   "bugs": "https://github.com/AtenDesignGroup/foundery/issues",
+  "scripts": {
+    "clean:css": "gulp clean:css",
+    "css": "gulp css",
+    "watch:css": "gulp watch:css"
+  },
   "dependencies": {
     "breakpoint-sass": "^2.7.1",
     "del": "^3.0.0",
@@ -13,7 +18,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^1.12.1",
     "lodash.defaultsdeep": "^4.6.0",
-    "postcss-cssnext": "^3.1.0"
+    "postcss-cssnext": "^3.1.0",
+    "run-sequence": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^4.16.0",
